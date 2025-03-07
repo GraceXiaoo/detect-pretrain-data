@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python ./src/run.py --target_model /mnt/workspace/hf_models/models--Qwen--Qwen2.5-7B-Instruct --ref_model /mnt/workspace/hf_models/models--Qwen--Qwen2.5-1.5B-Instruct --output_dir ./src/out --data /mnt/workspace/xiaojin/physics/dataset/medium_all_text.json --length 256 --key_name text
